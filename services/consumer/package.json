@@ -1,0 +1,22 @@
+{
+  "name": "kafka-nodejs-example-consumer",
+  "version": "1.0.0",
+  "description": "A kafka consumer that inserts data into PostgreSQL.",
+  "author": "Yuvaraj <yuvarajsomavamshi@gmail.con> (https://github.com/yuviSomavamshi))",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node consumer.js",
+    "prettify": "prettier --ignore-path \"./.prettierignore\" --write \"./**/*.{js,json}\""
+  },
+  "dependencies": {
+    "avsc": "5.3.1",
+    "kafka-node": "2.6.1",
+    "moment": "2.22.2",
+    "pg": "7.4.3",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
